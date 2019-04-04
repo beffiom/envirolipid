@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+#delayTitle {
+    animation: 3s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#delaySupport {
+    animation: 5s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#delayLearn {
+    animation: 6s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+#logo{
+    height: 125px;
+    width: 125px;
+    position: relative;
+    margin-top: 10px;
+    border: 8px #4CAF50 solid;
+    border-radius: 50%;
+    top: 0;
+    z-index: 999;
+}
+
+#alt_logo{
+    height: 125px;
+    width: 125px;
+    position: relative;
+    margin-top: 10px;
+    border: 8px black solid;
+    border-radius: 50%;
+    top: 0;
+    z-index: 999;
+}
+
+#mediaIcons {
+    padding:8px;
+    padding-right: 10px;
+}
+
+/* Full height image header */
+.homeBG {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../img/home.jpg');
+    min-height: 100%;
+    z-index: 0;
+}
+
+.videoBgWrapper {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.videoBg{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.scrollTop {
+    display:none; width:100%; margin:0 auto; position:fixed; bottom:20px;
+}
+
+.textHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-25%);
+    text-align: center;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.animationBg{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.teamBG {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../img/team.jpg');
+    height: 100vh;
+    z-index: 0;
+}
+
+.patentBG {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../img/patent.jpg');
+    height: 40vh;
+    z-index: 0;
+}
+
+.contactBG {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../img/contact.jpg');
+    height: 40vh;
+    z-index: 0;
+}
+
+.crowdfundingBG {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../img/crowdfunding.jpg');
+    height: 110%;
+    z-index: 0;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.w3-image .headerImg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.w3-card {
+    text-align: center;
+}
+
+.w3-card img {
+    padding: 20px;
+}
+
+#blurb{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.removeLarge {
+    display: none;
+}
+
+@media screen and (max-width: 1025px) {
+    #logo {
+        height: 50px;
+        width: 50px;
+        border: none;
+        padding-bottom: 5px;
+    }
+
+    #alt_logo {
+        height: 50px;
+        width: 50px;
+        border: none;
+        padding-bottom: 5px;
+    }
+    #navLinks {
+        font-size: 14px;
+    }
+    .removeMedium {
+        display: none;
+    }
+    .removeLarge {
+        display: block;
+    }
+    .videoBg{
+        height: 100vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #logo {
+        height: 25px;
+        width: 25px;
+        border: none;
+        padding-bottom: 5px;
+    }
+
+    #alt_logo {
+        height: 25px;
+        width: 25px;
+        border: none;
+        padding-bottom: 2px;
+    }
+    #mediaIcons {
+        display: none;
+    }
+    #blurb{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .videoBg{
+      width: 100%;
+      height: auto;
+    }
+    .patentBG {
+        height: 45vh;
+    }
+    .contactBG {
+        height: 45vh;
+    }
+}

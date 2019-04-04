@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<title>Citrus Greening Cure</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/style.css">
+
+<body>
+        <!--LOGO & NAVBAR -->
+        <div id="home">
+            <a href="javascript:void(0)" class="w3-text-white w3-button w3-left w3-hide-large w3-hide-medium" onclick="w3_open()">
+              <i class="w3-xlarge fa fa-bars"></i>
+            </a>
+            <div class="w3-green w3-center" style="height: 35px;">
+                <img class="w3-center w3-hide-small" id="logo" src="./img/orange.svg" alt="orange_logo"></img>
+                <img class="w3-right w3-hide-large w3-hide-medium" id="logo" src="./img/orange.svg" alt="orange_logo"></img>
+            </div>
+
+            <navbar>
+                <div class="w3-row w3-bottombar w3-border-white">
+                  <div class="w3-bar w3-green w3-text-white w3-card" id="myNavbar">
+                      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+                    <div class="w3-col w3-half">
+                        <a href="./index.html" class="w3-hide-small w3-hover-white w3-bar-item w3-button w3-wide"><i class="w3-large fa fa-pagelines" style="padding-right:5px;"></i>CITRUS GREENING CONTROL</a>
+                        <a href="./index.html" class="w3-center w3-hide-medium w3-hide-large w3-button w3-wide"><i class="w3-large fa fa-pagelines"></i><br>CITRUS GREENING CONTROL</a>
+                        <div class="w3-xlarge w3-hide-small removeMedium w3-right" id="mediaIcons">
+                          <a href="https://www.facebook.com/rhamnolipid/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                          <a href="https://twitter.com/Rhamnolipid" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                          <a href="https://www.instagram.com/rhamnolipids/" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                          <a href="https://www.linkedin.com/company/rhamnolipid/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+                        </div>
+                        <div class="w3-xlarge w3-hide-small removeLarge" id="mediaIcons">
+                          <a href="https://www.facebook.com/rhamnolipid/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                          <a href="https://twitter.com/Rhamnolipid" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                          <a href="https://www.instagram.com/rhamnolipids/" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                          <a href="https://www.linkedin.com/company/rhamnolipid/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+                        </div>
+                     </div>
+
+                    <div class="w3-col w3-half">
+                        <div class="w3-xlarge w3-hide-small removeMedium w3-left" id="mediaIcons">
+                          <a href="https://www.facebook.com/rhamnolipid/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                          <a href="https://twitter.com/Rhamnolipid" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                          <a href="https://www.instagram.com/rhamnolipids/" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                          <a href="https://www.linkedin.com/company/rhamnolipid/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+                        </div>
+                        <!-- Right-sided navbar links -->
+                        <div class="w3-hide-small w3-right" id="navLinks">
+                            <a href="./team.html" class="w3-hover-white w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+                            <a href="./crowdfunding.html" class="w3-hover-white w3-bar-item w3-button"><i class="fa fa-usd"></i> CROWDFUNDING</a>
+                            <a href="./patents.html" class="w3-hover-white w3-bar-item w3-button"><i class="fa fa-file-text-o"></i> PATENTS</a>
+                            <a href="./contact.html" class="w3-hover-white w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Sidebar on small screens when clicking the menu icon -->
+                <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+                  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+                  <a href="./team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+                <a href="./crowdfunding.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> CROWDFUNDING</a>
+                  <a href="./patents.html" class="w3-bar-item w3-button"><i class="fa fa-file-text-o"></i> PATENTS</a>
+                  <a href="./contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+                </nav>
+            </navbar>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <!-- Full-Screen Image
+    <header class="w3-border-bottom w3-hide-small w3-border-black homeBG w3-container w3-display-container" id="home" >
+      <div class="w3-display-right w3-text-white">
+        <span class="w3-jumbo" style="padding-right:40px;">Florida's Oranges Are Dying.</span>
+        <p class="w3-center" style="padding-right:40px;"><a href="#about" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-top w3-opacity w3-hover-opacity-off">Learn More</a></p>
+      </div>
+    </header>
+    <header class="w3-border-bottom w3-hide-large w3-hide-medium w3-border-black homeBG" id="home">
+      <div class="w3-center w3-text-white" style="padding-top:150px;">
+        <span class="w3-xxlarge">Florida's Oranges Are Dying.</span>
+        <p ><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn More</a></p>
+      </div>
+    </header>-->
+
+    <!-- Full-Screen Video  -->
+    <header>
+        <div class="videoBgWrapper">
+            <div class="textHeader w3-hide-small w3-text-white">
+              <span class="w3-jumbo" id="delayTitle">Florida's Oranges Are Dying.</span>
+              <p><a href="https://www.fundable.com/" target="_blank" class="w3-button w3-orange w3-round-xxlarge w3-xlarge w3-margin-top w3-text-white w3-hover-grayscale w3-hover-text-white w3-bottombar w3-border w3-padding-xxlarge w3-border-white" style="text-shadow:none;" id="delaySupport">Support Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#about" class="w3-button w3-text-orange w3-bottombar w3-border-orange w3-white w3-xlarge w3-hover-grayscale w3-hover-text-white w3-border w3-round-xxlarge w3-padding-xxlarge w3-margin-top " style="text-shadow:none;" id="delayLearn">Learn More</a>
+              </p>
+            </div>
+            <div class="w3-center w3-black w3-hide-large w3-hide-medium" style="padding-top:50px; padding-bottom:50px;">
+              <span class="w3-xxlarge">Florida's Oranges Are Dying.</span>
+              <p><a href="https://www.fundable.com/agrilipid" target="_blank" class="w3-button w3-orange w3-round-xxlarge w3-xlarge w3-margin-top w3-text-white w3-hover-grayscale w3-hover-text-white w3-bottombar w3-padding-xxlarge w3-border-white" style="text-shadow:none;">Support Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="#about" class="w3-button w3-text-orange w3-border w3-border-orange w3-black w3-xlarge w3-hover-grayscale w3-hover-text-white w3-round-xxlarge w3-padding-xxlarge w3-margin-top " style="text-shadow:none;">Learn More</a>
+              </p>
+            </div>
+            <video loop muted autoplay poster="./img/homealt.jpg" class="videoBg">
+                <source src="./video/citrus-greening.mp4" type="video/mp4">
+            </video>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-container w3-black" style="padding-top:25px; padding-bottom:35px;">
+      <h3 class="w3-center" id="about" style="padding-top:15px;">RHAMNOLIPID AND CITRUS GREENING</h3>
+      <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <div class="w3-third">
+          <i class="fa fa-exclamation-triangle w3-margin-bottom w3-jumbo w3-center"></i>
+          <p class="w3-large">The Problem</p>
+            <p class="w3-left">
+                Citrus Greening or “HLB,” short for Huanglongbing disease, infects citrus trees
+                with the deadly bacteria Candidatus Liberibacter.  Citrus Greening causes discoloration
+                in the leaves of citrus trees and then kills the tree by attacking the vascular system of
+                the plant.
+            </p>
+            <p class="w3-left">
+                This causes a blockage for essential nutrients and water, which leads to
+                deformed fruit that falls off the branch prematurely. This fruit is unusable to citrus
+                farmers.Around 90% of Florida's citrus trees have become infected with this terrible
+                disease and its plan is to remove the citrus industry from the state completely.
+                If we don't stop citrus greening now, our dedicated, hardworking farmers will lose their crops and we will be paying top dollar for our orange juice to be imported from other countries.
+            </p>
+
+        </div>
+        <div class="w3-third">
+          <i class="fa fa-lightbulb-o  w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">Our Solution</p>
+          <p class="w3-left">
+              This is where our product comes in.  Not only does rhamnolipid control citrus
+                greening but, it is also eco-friendly and non-toxic.
+          </p>
+          <p class="w3-left">
+              Our easy-to-use application is applied
+              to the roots and dispersed throughout the root system.  After about 5 weeks, you will
+              start noticing the bark of the citrus tree coming back to life and then the leaves will
+              begin to appear greener.
+          </p>
+          <p class="w3-left">
+              We have spent numerous hours researching our rhamnolipid
+             citrus greening application.  Initial, inexpensive tests were completed in Brazil and in
+             Europe and were successful. With the correct ratio, dilution, and results to submit to the
+             FDA, it is time to conclude the extensive testing of rhamnolipid in the United States.
+          </p>
+        </div>
+        <div class="w3-third">
+          <i class="fa fa-handshake-o w3-margin-bottom w3-jumbo"></i>
+          <p class="w3-large">How You Can Help</p>
+          <p class="w3-left">
+            Help us save our citrus trees by sharing the expense of the fees with us for the tests to be conducted at the University of California, with the premier testing researcher, Carolyn Slupsky!
+        </p>
+        <p class="w3-left">
+            After testing, we will present our product to major corporations such as Coca Cola and Tropicana.
+            <br>&nbsp;<br>&nbsp;
+        </p>
+        <p>
+            <div class="w3-center">
+              <a href="./crowdfunding.html" class="w3-button w3-xlarge w3-bottombar w3-border-white w3-hover-gray w3-hover-text-white w3-green w3-round-xxlarge" style=""><i class="fa fa-thumbs-up w3-margin-right"></i>Help Us.</a>
+            </div>
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-topbar w3-row w3-border-white w3-green" style="vertical-align:center;">
+          <div class="w3-small w3-col w3-third w3-center w3-padding-32" style="vertical-align:center;">Icons made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        <div class="w3-col w3-third w3-xlarge w3-section w3-center">
+          <a href="https://www.facebook.com/rhamnolipid/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+          <a href="https://twitter.com/Rhamnolipid" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+          <a href="https://www.instagram.com/rhamnolipids/" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+          <a href="https://www.linkedin.com/company/rhamnolipid/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+        <p class="w3-col w3-third w3-center w3-padding-16">Copyright &copy; 2010 - 2018 <a href="http://rhamnolipid.com/" target="_blank">Rhamnolipid-Companies</a></p>
+    </footer>
+
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/jquery-2.1.4.js"></script>
+    <script src="./js/scroll.js"></script>
+</body>
+</html>

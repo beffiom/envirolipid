@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Citrus Greening | Team</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/team.css">
+    </head>
+    <!--LOGO & NAVBAR -->
+    <div id="home">
+        <a href="javascript:void(0)" class="w3-text-white w3-button w3-left w3-hide-large w3-hide-medium" onclick="w3_open()">
+          <i class="w3-xlarge fa fa-bars"></i>
+        </a>
+        <div class="w3-green w3-center" style="height: 35px;">
+            <img class="w3-center w3-hide-small" id="logo" src="./img/orange.svg" alt="orange_logo"></img>
+            <img class="w3-right w3-hide-large w3-hide-medium" id="logo" src="./img/orange.svg" alt="orange_logo"></img>
+        </div>
+
+        <navbar>
+            <div class="w3-row w3-bottombar w3-border-white">
+              <div class="w3-bar w3-green w3-text-white w3-card" id="myNavbar">
+                  <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+                <div class="w3-col w3-half">
+                    <a href="./index.html" class="w3-hide-small w3-hover-white w3-bar-item w3-button w3-wide"><i class="w3-large fa fa-pagelines" style="padding-right:5px;"></i>CITRUS GREENING CONTROL</a>
+                    <a href="./index.html" class="w3-center w3-hide-medium w3-hide-large w3-button w3-wide"><i class="w3-large fa fa-pagelines"></i><br>CITRUS GREENING CONTROL</a>
+                    <div class="w3-xlarge w3-hide-small removeMedium w3-right" id="mediaIcons">
+                      <a href="https://www.facebook.com/rhamnolipid/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                      <a href="https://twitter.com/Rhamnolipid" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                      <a href="https://www.instagram.com/rhamnolipids/" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                      <a href="https://www.linkedin.com/company/rhamnolipid/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+                    </div>
+                    <div class="w3-xlarge w3-hide-small removeLarge" id="mediaIcons">
+                      <a href="https://www.facebook.com/rhamnolipid/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                      <a href="https://twitter.com/Rhamnolipid" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                      <a href="https://www.instagram.com/rhamnolipids/" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                      <a href="https://www.linkedin.com/company/rhamnolipid/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+                    </div>
+                 </div>
+
+                <div class="w3-col w3-half">
+                    <div class="w3-xlarge w3-hide-small w3-left removeMedium w3-left" id="mediaIcons">
+                      <a href="https://www.facebook.com/rhamnolipid/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                      <a href="https://twitter.com/Rhamnolipid" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                      <a href="https://www.instagram.com/rhamnolipids/" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                      <a href="https://www.linkedin.com/company/rhamnolipid/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+                    </div>
+                    <!-- Right-sided navbar links -->
+                    <div class="w3-hide-small w3-right" id="navLinks">
+                        <a href="./team.html" style="padding:13px;" class="w3-topbar w3-border-white w3-hover-white w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+                        <a href="./crowdfunding.html" class="w3-hover-white w3-bar-item w3-button"><i class="fa fa-usd"></i> CROWDFUNDING</a>
+                        <a href="./patents.html" class="w3-hover-white w3-bar-item w3-button"><i class="fa fa-file-text-o"></i> PATENTS</a>
+                        <a href="./contact.html" class="w3-hover-white w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sidebar on small screens when clicking the menu icon -->
+            <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+              <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+              <a href="./team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+            <a href="./crowdfunding.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> CROWDFUNDING</a>
+              <a href="./patents.html" class="w3-bar-item w3-button"><i class="fa fa-file-text-o"></i> PATENTS</a>
+              <a href="./contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+            </nav>
+        </navbar>
+    </div>
+
+        <!-- Main -->
+        <main>
+            <!-- Header with full-height image -->
+            <header class="w3-border-bottom w3-hide-small w3-border-black teamBG">
+              <div class="w3-center w3-text-white" style="padding-top:250px; padding-bottom:250px;">
+                <a href="#teamNavbar"><span class="w3-button w3-hover-text-green w3-hover-white w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-min w3-xxlarge">MEET THE TEAM</span></a>
+              </div>
+            </header>
+
+            <!-- Header with full-height image -->
+            <header class="w3-border-bottom w3-hide-medium w3-hide-large w3-border-black teamBG">
+              <div class="w3-center w3-text-white" style="padding-top:175px; padding-bottom:175px;">
+                <a href="#teamNavbar"> <span class="w3-button w3-hover-text-green w3-hover-white w3-white w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-min w3-xxlarge">MEET THE TEAM</span></a>
+              </div>
+            </header>
+
+
+            <!-- Page Header
+            <header class="w3-border-bottom w3-border-black w3-display-container w3-content w3-wide" style="max-width:100%;">
+              <img class="w3-image" src="./img/team.jpg" alt="Team">
+              <div class="w3-container w3-display-middle w3-margin-top w3-center">
+                  <h1 class="w3-text-white"><span class="w3-padding w3-black w3-opacity-min" style="size:2em;"><b>THE TEAM</b></span> </h1>
+                  <div class="w3-text-white"><span class="w3-padding w3-black w3-opacity-min">the ones who <strong>run</strong> the company</span></div>
+              </div>
+            </header>-->
+
+            <!-- Page Navigation -->
+            <div class="w3-bottombar w3-border-white">
+             <div class="w3-bar w3-black w3-center w3-text-white w3-card" id="teamNavbar">
+                    <a href="#officers" class="w3-hover-black w3-hover-text-green w3-button"> OFFICERS</a>
+                    <a href="#agromists" class="w3-hover-black w3-hover-text-green w3-button"> AGROMISTS</a>
+                    <a href="#researchers" class="w3-hover-black w3-hover-text-green w3-button"> RESEARCHERS</a>
+                    <a href="#interns" class="w3-hover-black w3-hover-text-green w3-button"> INTERNS</a>
+                </div>
+            </div>
+
+            <!-- Team Section -->
+            <div class="w3-container w3-black">
+                <!-- Officers -->
+                  <div class="w3-row-padding" style="">
+                      <h1 class="sectionHeading" id="officers">Officers</h1>
+
+                      <div class="w3-col w3-third w3-margin-bottom">
+                        <div class="w3-card w3-white w3-leftbar w3-border-green">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container" id="officerBox">
+                              <div id="memberName">Keith DeSanto</div>
+                              <div id="memberTitle">President and Director</div>
+                              <div id="memberEdu">
+                                  <div id="degree">B.S. Mathematics</div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap"></i>
+                                      Northwestern University</div>
+                              </div>
+                              <div id="memberBio">
+                                  <p>Keith started his career with the Boston Stock Exchange in 1987 and has since managed and owned NASDAQ Broker Dealers.  He purchased Rhamnolipid Companies in 2004 and has devoted all of his time to developing a cost-efficient production method for producing rhamnolipid in industrial quantities and developing a control for Citrus Greening using rhamnolipid.
+                                    </p>
+                                <!-- <p><button class="w3-button w3-green w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="w3-col w3-third w3-margin-bottom">
+                      <div class="w3-card w3-leftbar w3-white w3-border-orange">
+                        <img src="./img/team/officers/bruceharmon.png" alt="bruce_harmon" style="border-radius: 50%;">
+                        <div class="w3-container" id="officerBox">
+                            <div id="memberName">Bruce Harmon</div>
+                            <div id="memberTitle">CFO</div>
+                            <div id="memberEdu">
+                                <div id="degree">B.S. Accounting</div>
+                                <div id="school">
+                                    <i class="fa fa-graduation-cap "></i>
+                                    Missouri State University</div>
+                            </div>
+                            <div id="memberBio">
+                                <p>Member of Association for Certified Fraud Examiners (ACFE) and The Financial Executives Networking Group (FENG).
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  <div class="w3-col w3-third w3-margin-bottom">
+                    <div class="w3-card w3-white w3-leftbar w3-border-green">
+                      <img src="./img/user.png" alt="[placeholder]">
+                      <div class="w3-container" id="officerBox">
+                          <div id="memberName">Richard Pucci</div>
+                          <div id="memberTitle">Project Manager</div>
+                          <div id="memberEdu">
+                              <div id="degree">M.S. Strategic Studies</div>
+                              <div id="school">
+                                  <i class="fa fa-graduation-cap "></i>
+                                  Royal Military College</div>
+                          </div>
+                          <div id="memberBio">
+                            <p>Retired from the Canadian Armed Forces and the Royal Medical Service at the rank of Colonel while serving as the Deputy Commander Canadian Forces Health Services at National Defence Headquarters in Ottawa.  Also served as Chief of Staff.  Served in an extraordinary variety of command and strategic level staff positions in Canada, the United Kingdom, United States, and operational tours.</p>
+                            <p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <!-- Agromists -->
+                  <div class="w3-row-padding w3-topbar w3-border-white" style="margin-top:64px">
+                      <h1 class="sectionHeading" id="agromists">Agromists</h1>
+
+                      <div class="w3-col w3-margin-bottom" style="width:100%;">
+                        <div class="w3-card w3-topbar w3-white w3-border-green">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container">
+                              <div id="memberName">Dr. Lucien M. Bordeleau</div>
+                              <div id="memberEdu">
+                                  <div id="degree">B.S. Agronomy<br>
+                                  M.S. Bacteriology</div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap "></i>
+                                      Laval University<br><br></div>
+                                  <div id="degree">Ph.D Environmental Microbiology<br>
+                                  M.S. Bacteriology</div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap "></i>
+                                      Rutgers University</div>
+                              </div>
+                              <div id="memberBio">
+                                <p>She is a member of the Canadian College of Microbiologists (1978).  Successive research scientist, research director, research coordinator, and advisor in various R&D projects in partnership (Government-university-industry) for national and international organizations including Agriculture and Agri-Food Canada, Environment Canada, United Nations (UNESCO), OECD, FAO, National Academy of Sciences of USA and various Canadian and American universities (1972-1996). Expertise in the areas of biodegradation, biotransformations, fermentation, composting, soil-plant-microbe relationships, biocontrol against plant diseases and preservation and bioremediation.  Principal of Biolistik Ltée, an agro-environment firm specializing in the safe use of microorganisms in soil systems / plants / water in sustainable production and restoration, as well as in the protection of soil-water-air resources and the efficiency of wastewater treatment systems.
+                                  </p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-margin-bottom" style="width:100%;">
+                        <div class="w3-card w3-topbar w3-white w3-border-orange">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container">
+                              <div id="memberName">Conrad Bernier</div>
+                              <div id="memberEdu">
+                                  <div id="degree">B.S. Agricultural Sciences</div>
+                                  <div id="school"></div>
+                              </div>
+                              <div id="memberBio">
+                                  <p>From 1988 to 1997, he served as administrator of the Department of Agriculture for the Province of Quebec and managed to change the laws for crop insurance and income stabilization to lower insurance costs for producers and governments.  He earned a Bachelor’s in Agricultural Sciences with an animal sciences option, which supplements with a mastery in animal genetics.  He was the Director of the Service for the Department of Agriculture.  He was also the First Vice-President of the World Association of Agronomists (AMIA).
+                                    </p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+                  <!-- Researchers -->
+                  <div class="w3-row-padding w3-topbar w3-border-white" style="margin-top:64px">
+                      <h1 class="sectionHeading" id="researchers">Researchers</h1>
+
+                      <div class="w3-col w3-margin-bottom" style="width:100%;">
+                        <div class="w3-card w3-topbar w3-white w3-border-green">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container">
+                              <div id="memberName">Dr. Helen Zhang</div>
+                              <div id="memberTitle">15yrs+ experience dealing with biosurfactants and working with industries</div>
+                              <div id="memberEdu">
+                                  <div id="degree">Associate Professor in Department of Civil (Environmental) Engineering<br>
+                                  Research Chair (Tier II)</div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap "></i>
+                                      Memorial University</div>
+                              </div>
+                              <div id="memberBio">
+                                  <p>Her research expertise and interests lie in the areas of marine oil spill response, coastal/inland site remediation, marine oily wastewater treatment, reservoir souring control, fishery/municipal solid waste composting, and environmental monitoring and analysis. She has led or participated in over 20 research grants / contracts (12 as PI) since joining Memorial University in 2010 and she has produced more than 180 technical publications. Her research contributions have been widely recognized in newsletters and magazines such as Canadian Reclamation, Research Matters, Context Magazine (Canadian Association of Petroleum Producers), Genome Atlantic e-Bulletin, Natural Resources Magazine, and Gazette Magazine. She serves the Executive Committee of Canadian Society for Civil Engineering (CSCE) NL Section, as Senior Expert of UNDP, and the Atlantic Region Director of Canadian Association on Water Quality (CAWQ).
+                                    </p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Dr. Maria Izabel Camargo-Mathias</div>
+                              <div id="memberEdu">
+                                  <div id="degree">Ph.D Biological Sciences (Zoology)</div>
+                                  <div id="school"><i class="fa fa-graduation-cap "></i>
+                                      Paulista Júlio de Mesquita Filho State University</div>
+                              </div>
+                              <div id="memberBio">
+                                  <p>Maria obtained her Doctorate in Biological Sciences (Zoology) in 1993 from Universidade Estadual Paulista Júlio de Mesquita Filho and became a full professor in 2010.  She was nominated for the three-name list of the Electoral Commission for the position of Director at the National School of Tropical Botany.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-orange">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Dr. Marlus Chorilli</div>
+                              <div id="memberEdu">
+                                  <div id="degree">Ph.D Pharmaceutical Sciences</div>
+                                  <div id="school">São Paulo State University</div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Currently Assistant Professor at the School of Pharmaceutical Sciences of Araraquara – São Paulo State University, teaching Pharmacotechniques and Pharmaceutical Technology.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Dr. Patricia Bento da Silva</div>
+                              <div id="memberEdu">
+                                  <div id="degree">Ph.D Inorganic Chemistry</div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap "></i>
+                                      São Paulo State University</div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Holds a PhD (2012) in inorganic chemistry involving "inorganic compounds applied to TB treatment" in the Chemistry Program IQAR/UNESP and is currently acting as a Postdoctoral researcher at the School of Pharmaceutical Sciences – São Paulo State University.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-orange">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Beatriz Cristina Pecoraro Sanches</div>
+                              <div id="memberEdu">
+                                  <div id="degree">M.S. Biotechnology</div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap "></i>
+                                      São Paulo State University</div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Holds a Master’s Degree in Biotechnology Post-Graduation Program, Chemistry Institute – São Paulo State University (IQ - UNESP) and works with rhamnolipid applications in nanotechnology.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Cinthia Cristine de Moura</div>
+                              <div id="memberEdu">
+                                  <div id="degree">B.S. Environmental Engineering</div>
+                                  <div id="degree">M.S. Geosciences and Environment</div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap "></i>
+                                      Paulista Júlio de Mesquita Filho State University </div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Currently studying PhD in Bioenergy from the State University of São Paulo Júlio de Mesquita Filho, acting mainly in the following subjects: rain simulation, compensatory technique, hydrochemistry and environmental remediation.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-orange">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Dr. Claudio José Von Zuben</div>
+                              <div id="memberEdu">
+                                  <div id="degree">B.S. Biology<br>
+                                      M.S. Biology<br>
+                                      Ph.D Zoology
+                                  </div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap "></i>
+                                      São Paulo State University</div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Bachelor of Science in Biology (1988), Master (1992) and Ph.D. of Science in Zoology (1996), São Paulo State University (UNESP), Rio Claro, São Paulo State, Brazil.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Vinícius Luiz Da Silva</div>
+                              <div id="memberEdu">
+                                  <div id="degree">M.S. Microbiology</div>
+                                  <div id="school">
+                                      <i class="fa fa-graduation-cap "></i>
+                                      São Paulo State University</div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Holds a Master’s degree in Microbiology at São Paulo State university, Júlio de Mesquita Filho, UNESP, São Paulo, Brazil and as experience focusing on Industrial Microbiology and Fermentation, acting on the following subjects: pseudomonas aeruginosa, biosurfactant, rhamnolipids.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-orange">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Henrique Ferreira</div>
+                              <div id="memberEdu">
+                                  <div id="degree"></div>
+                                  <div id="school"></div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Associate Professor (from Apr/2015), Depto. Bioquímica e Microbiologia, IBRC, UNESP, Rio Claro and has published books such as, “Proceedings of the International Workshop on Xanthomonas citri/citrus canker.”</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Reinaldo Marchetto</div>
+                              <div id="memberEdu">
+                                  <div id="degree"></div>
+                                  <div id="school"></div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Full professor at the Institute of Chemistry of UNESP with experience on Chemistry of Macromolecules, Medicinal Chemistry and Biomaterials and scientifically acts in the following subjects: peptide synthesis, antimicrobial peptides, topoisomerases mechanisms, solid phase organic synthesis, antitumor drugs and drug-delivery systems. In the Biomaterials area, act in the development of nanocomposites with application in the tissue regeneration.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-orange">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Dr. Roberta Barros Lovaglio</div>
+                              <div id="memberEdu">
+                                  <div id="degree">Ph.D Applied Microbiology</div>
+                                  <div id="school"></div>
+                              </div>
+                              <div id="memberBio">
+                                <p>Post-graduate degree in applied microbiology at the doctoral level with emphasis on biotechnology and agro-industrial waste, working mainly on the following topics: production and application of rhamnolipids biosurfactants, biodegradation and fermentation.</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <div class="w3-container" id="reasearcherBox">
+                              <div id="memberName">Ana María Salazar Bryam</div>
+                              <div id="memberEdu">
+                                  <div id="degree"></div>
+                                  <div id="school"></div>
+                              </div>
+                              <div id="memberBio">
+                                <p>A PhD student at UNESP working with biotechnological production and applications of rhamnolipids from Pseudomonas Aeruginosa.  She previously worked with microbial water ecology researching heavy metals bioremediation and focused on biosurfactants production research.   </p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+
+                  <!-- Interns-->
+                  <div class="w3-row-padding w3-topbar w3-border-white">
+                     <h1 class="sectionHeading" id="interns">Interns</h1>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container" id="internBox">
+                              <div id="memberName">Morgan Rountree</div>
+                              <div id="memberTitle">Communications Director/Intern</div>
+                              <div id="memberBio">
+                                  <p>Currently completing an A.S. Degree in Computer Programming and Analysis at St. Petersburg College and currently holds a General A.A.  She graduated from Frostproof High School, in the heart of citrus country, and was active in Future Business Leaders of America and DECA.
+                                    </p>
+                                <p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-orange">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container" id="internBox">
+                              <div id="memberName">Daniel Rojas</div>
+                              <div id="memberTitle">Web Development Intern</div>
+                              <div id="memberBio">
+                                  <p>A Computer Programming and Analysis student at St. Petersburg College.  Daniel is working on developing and designing Rhamnolipid websites and crowdfunding campaigns.
+                                    </p>
+                                <p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container" id="internBox">
+                              <div id="memberName">Ben Effiom</div>
+                              <div id="memberTitle">Web Development Intern</div>
+                              <div id="memberBio">
+                                  <p>Currently an A.S. Web Development student at St. Petersburg College. Ben is working mainly on developing and designing Rhamnolipid websites and crowdfunding campaigns.</p>
+                                <p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-orange">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container" id="internBox">
+                              <div id="memberName">Christian Fenn</div>
+                              <div id="memberTitle">Web Development Intern</div>
+                              <div id="memberBio">
+                                  <p>Computer Programming and Analysis Intern working on the crowdfunding campaign and Rhamnolipid website.</p>
+                                <p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="w3-col w3-half w3-margin-bottom">
+                        <div class="w3-card w3-leftbar w3-white w3-border-green">
+                          <img src="./img/user.png" alt="[placeholder]">
+                          <div class="w3-container" id="internBox">
+                              <div id="memberName">Zhanna Vysotskaya</div>
+                              <div id="memberTitle">Web Development Intern</div>
+                              <div id="memberBio">
+                                  <p>Graduate student at St. Petersburg College working towards AS degree in Computer Programming and Analysis.  Currently working on designing and developing websites.</p>
+                                <p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+
+            <!-- Button: Return to Top of Page -->
+            <div class="w3-padding-32 w3-center scrollTop">
+              <div class="scrollUp w3-round-xxlarge w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</div>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-topbar w3-row w3-border-white w3-green" style="vertical-align:center;">
+              <div class="w3-small w3-col w3-third w3-center w3-padding-32" style="vertical-align:center;">Icons made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <div class="w3-col w3-third w3-xlarge w3-section w3-center">
+              <a href="https://www.facebook.com/rhamnolipid/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+              <a href="https://twitter.com/Rhamnolipid" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+              <a href="https://www.instagram.com/rhamnolipids/" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+              <a href="https://www.linkedin.com/company/rhamnolipid/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            </div>
+            <p class="w3-col w3-third w3-center w3-padding-16">Copyright &copy; 2010 - 2018 <a href="http://rhamnolipid.com/" target="_blank">Rhamnolipid-Companies</a></p>
+        </footer>
+
+        <script src="./js/sidebar.js"></script>
+        <script src="./js/jquery-2.1.4.js"></script>
+        <script src="./js/scroll.js"></script>
+    </body>
+</html>

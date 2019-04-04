@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Ubuntu|Roboto');
+
+.sectionHeading {
+    font-family: Arvo;
+    font-size: 4em;
+    padding: 30px;
+    text-align: center;
+}
+
+#memberName {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-radius: 25%;
+}
+
+#memberTitle {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+#memberEdu {
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#school {
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 5px;
+}
+
+#memberBio {
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+#officerBox {
+    height: 425px;
+}
+
+#reasearcherBox {
+    height: 285px;
+}
+
+#internBox {
+    height: 225px;
+}
+
+@media screen and (max-width: 1050px) {
+    #officerBox {
+        height: 500px;
+    }
+    #reasearcherBox {
+        height: 460px;
+    }
+    #internBox {
+        height: 275px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sectionHeading {
+        font-size: 2em;
+    }
+    #internBox {
+        height: 100%;
+    }
+    #officerBox {
+        height: 100%;
+    }
+    #reasearcherBox {
+        height: 100%;
+    }
+    #memberName {
+        font-size: 22px;
+    }
+    #memberTitle {
+        font-size: 18px;
+    }
+}
